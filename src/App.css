@@ -1,7 +1,129 @@
+*{
+  background-color: #FAFAFA;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black; 
+}
+
+.background1 {
+  background-color: rgb(226, 222, 227);
+  padding: 7.7em;
+}
+
+.background2 {
+  background-color: rgb(226, 222, 227);
+}
+
+.submitButton {
+  background-color: #005FB2;
+  color: white;
+  height: 2.8em;
+  width: 7.4em;
+  border-radius: 0.8em;
+  margin-left: 12em;
+  margin-top: 0.5em;
+}
+
+.tokenButton {
+  background-color: #005FB2;
+  color: white;
+  height: 3.4em;
+  width: 12.4em;
+  border-radius: 0.8em;
+}
+
+.usernameInput {
+  background-color: #FAFAFA;
+  border-width: 0.1em;
+  border-radius: 0.8em;
+  border-style:hidden;
+  height:2.2em;
+  width: 13.8em;
+  margin-left: 0.6em;
+  font-size: medium;
+}
+
+.passwordInput {
+  background-color: #FAFAFA;
+  border-width: 0.1em;
+  border-radius: 0.8em;
+  border-style: hidden;
+  height: 2.2em;
+  width: 13.8em;
+  margin-left: 0.9em;
+  margin-top: 0.5em;
+  font-size: medium;
+}
+
+.signUp {
+  background-color:#005FB2;
+  font-family: serif;
+  font-size: 3.5em;
+  letter-spacing: 0.11em;
+  color: white;
+  margin-top: -4em;
+  /* -webkit-text-stroke: 0.018em black; */
+}
+
+.top {
+  background-color:#FBF3CC;
+  height: 20em;
+  width: 35em;
+  margin-top: 13em;
+}
+
+.box1 {
+  background-color: #FBF3CC;
+  height: 15em;
+  width: 35em;
+  font-size: 1em;
+  font-weight: medium;
+}
+
+/* .box2 {
+  background-color: #FBF3CC;
+  font-weight: bold;
+  color: red;
+} */
+
+.bottom {
+  background-color: #FBF3CC;
+  height: 17.5em;
+  width: 35em;
+  margin-top: 8em;
+  /* position: fixed; */
+  
+}
+
+.authenticate {
+  background-color: #005FB2;
+  font-family:serif;
+  font-size: 3.5em;
+  letter-spacing: 0.11em;
+  color: white;
+}
+
+/* .a */
+
+
+.successMessage {
+  background-color: #FBF3CC;
+  font-weight:bold;
+  color: black;
+}
+
+/* .errorMessage {
+  background-color: #FBF3CC;
+  font-weight: bold;
+  color: rgb(185, 62, 62);
+} */
+
+.displayUsername {
+  margin-top: -18em;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -10,10 +132,13 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
